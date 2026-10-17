@@ -1,3 +1,5 @@
+import Button from "./ui/Button"
+
 function Navbar(){
     return(
         <header>
@@ -9,6 +11,7 @@ function Navbar(){
                     <li><a href="#contact"> Contact</a></li>
                 </ul>
             </nav>
+            <Button props="Login" />
         </header>
     )
 }

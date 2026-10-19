@@ -1,7 +1,8 @@
-import React from 'react'
 
 export default function cards() {
   return (
-    <div>cards</div>
+    <div>
+       <h1>Cards From Humna </h1>
+    </div>
   )
 }

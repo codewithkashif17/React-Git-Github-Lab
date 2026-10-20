@@ -1,11 +1,9 @@
-
+import Usercard from "./components/usercard";
 import "./index.css";
 
 function App() {
   return (
-    <div>
-      <h1>My App</h1>
-    </div>
+    <Usercard />
   );
 }
 

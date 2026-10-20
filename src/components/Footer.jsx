@@ -1,6 +1,6 @@
 
 
-export default function footer() {
+export default function Footer() {
   return (
     <div>
         <h1>Feature Footer</h1>

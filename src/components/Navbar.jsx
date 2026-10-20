@@ -6,10 +6,10 @@ const Navbar = () => {
       <div className="container">
         {/* Logo */}
         <div className="logo">
-          <h2>ChronoX</h2>
+          <a href="#home">ChronoX</a>
         </div>
 
-        {/* Navigation Links */}
+        {/* Navigation */}
         <nav className="navbar">
           <ul className="nav-links">
             <li>
@@ -19,10 +19,10 @@ const Navbar = () => {
               <a href="#features">Features</a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#pricing">Pricing</a>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <a href="#about">About</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
@@ -30,9 +30,11 @@ const Navbar = () => {
           </ul>
         </nav>
 
-        {/* Button */}
+        {/* CTA Button */}
         <div className="nav-btn">
-          <button>Get Started</button>
+          <a href="#download" className="btn">
+            Download App
+          </a>
         </div>
       </div>
     </header>

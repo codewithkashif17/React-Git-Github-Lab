@@ -1,11 +1,13 @@
 import Navbar from "./components/Navbar";
 import Cards from "./components/Cards";
 import Button from "./components/Button";
-import Usercard from "./components/Usercard";
-import Footer from "./components/Footer";
 import "./index.css";
 import Secfooter from "./components/Secfooter";
 import Form from "./components/Form";
+import UserCard from "./components/usercard";
+import Footer from "./components/footer";
+
+
 
 function App() {
   return (
@@ -14,7 +16,7 @@ function App() {
       <h1>My App</h1>
       <Cards />
       <Button />
-      <Usercard />
+      <UserCard />
       <Footer />
     <Secfooter/>
     <Form/>

@@ -2,7 +2,7 @@
 import Navbar from "./components/Navbar";
 import Cards from "./components/Cards";
 import Button from "./components/Button";
-import Usercard from "./components/Usercard";
+import UserCard from "./components/UserCard";
 import Footer from "./components/Footer";
 import Secfooter from "./components/Secfooter";
 import "./index.css";
@@ -14,7 +14,7 @@ function App() {
       <h1>My App</h1>
       <Cards />
       <Button />
-      <Usercard />
+      <UserCard />
       <Footer />
       <Secfooter />
     </div>

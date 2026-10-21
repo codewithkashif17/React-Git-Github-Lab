@@ -1,9 +1,11 @@
+
 import Navbar from "./components/Navbar";
 import Cards from "./components/Cards";
 import Button from "./components/Button";
-import Usercard from "./components/Usercard";
+import UserCard from "./components/UserCard";
 import Footer from "./components/Footer";
-import Card from "./components/Card";
+import Secfooter from "./components/Secfooter";
+import About from "./components/About";
 import "./index.css";
 
 function App() {
@@ -13,9 +15,11 @@ function App() {
       <h1>My App</h1>
       <Cards />
       <Button />
-      <Usercard />
+      <UserCard />
       <Footer />
+      <About />
       <Card />
+      <Secfooter />
     </div>
   );
 }

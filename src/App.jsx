@@ -5,6 +5,7 @@ import Button from "./components/Button";
 import UserCard from "./components/UserCard";
 import Footer from "./components/Footer";
 import Secfooter from "./components/Secfooter";
+import About from "./components/About";
 import "./index.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Cards />
       <Button />
       <UserCard />
+      <About />
       <Footer />
       <Secfooter />
     </div>

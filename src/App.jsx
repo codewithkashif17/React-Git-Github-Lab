@@ -14,7 +14,7 @@ function App() {
     <div>
       <Navbar />
       <h1>My App</h1>
-<<<<<<< HEAD
+
       <Cards />
       <Button />
       <UserCard />
@@ -22,9 +22,9 @@ function App() {
       <Footer />
       <Card />
       <Secfooter />
-=======
+
       
->>>>>>> feature/Secfooter
+
     </div>
   );
 }

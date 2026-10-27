@@ -2,10 +2,11 @@
 import Navbar from "./components/Navbar";
 import Cards from "./components/Cards";
 import Button from "./components/Button";
-import UserCard from "./components/UserCard";
+import UserCard from "./components/Usercard.jsx";
 import Footer from "./components/Footer";
 import Secfooter from "./components/Secfooter";
 import About from "./components/About";
+import Card from "./components/Card";
 import "./index.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <UserCard />
       <About />
       <Footer />
+      <Card />
       <Secfooter />
     </div>
   );

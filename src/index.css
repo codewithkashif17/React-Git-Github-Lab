@@ -104,3 +104,35 @@
     font-size: 13px;
 }
 
+
+
+
+
+
+
+
+
+
+.sec-footer {
+  background-color: #06141b;
+  color: #9ba8ab;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  border-top: 1px solid #253745;
+}
+
+.sec-footer p {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .sec-footer {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+}
+
